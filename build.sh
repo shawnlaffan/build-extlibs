@@ -1546,10 +1546,10 @@ install_bats
 ;;
 
 # ----------------------------------------------------------------------------
-pcre-*)
+pcre2-*)
 cd $WRKDIR/$PACK
 save_configure_help
-xxrun ./configure $HOSTBUILD --prefix=$OUT --enable-utf --enable-unicode-properties --disable-dependency-tracking --enable-static=no --enable-shared=yes
+xxrun ./configure $HOSTBUILD --prefix=$OUT --disable-dependency-tracking --enable-static=no --enable-shared=yes
 patch_libtool
 xxrun make
 xxrun make install

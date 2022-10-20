@@ -62,7 +62,7 @@ libunistring-0.9.10
 libidn2-2.1.1
 
 ######### the following are not part of standard strawberry perl
-#pcre-8.43
+#pcre2-10.40
 
 ######### asi ne
 #patch-2.7.6
